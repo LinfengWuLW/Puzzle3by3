@@ -1,3 +1,3 @@
 # Puzzle3by3
 
-https://www.loom.com/share/c43cd12fbded4848a65a95d04d656a92
+![Puzzle](https://user-images.githubusercontent.com/54160011/173409620-43838181-6224-436a-bd1c-49f480784920.gif)
