@@ -11,10 +11,10 @@ public class Drag : MonoBehaviour
 	float speed=2000;
 	
 	private void Start()
-    {
+    	{
 		rb = GetComponent<Rigidbody2D>();
 	}
-	public void OnMouseDrag()
+	void OnMouseDrag()
 	{
 		previousPostion = rb.position;
 		Vector3 mousePoint = Input.mousePosition;
@@ -23,12 +23,12 @@ public class Drag : MonoBehaviour
 		velocity = (mousePosWorld2D - previousPostion) * Time.deltaTime*speed;
 	}
 	void OnMouseUp()
-    {
+    	{
 		velocity = Vector3.zero;
-    }
+    	}
 
 	void FixedUpdate()
-    {
+    	{
 		rb.velocity = velocity;
 	}
 }
